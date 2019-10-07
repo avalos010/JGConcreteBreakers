@@ -1,93 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta name="Description" content="We Break & Remove! We Provide services for chicago & sorrounding suburbs">
-<meta name="Keywords" content="concrete chicago illinois cement ">
-  <meta charset="UTF-8">
-  <title>J & G Concrete Breakers</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  <meta name="Description" content="We Break & Remove Concrete. We Provide services for chicago & sorrounding suburbs">
+  <meta name="Keywords" content="concrete chicago illinois cement concrete removal">
 
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140214231-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      <link rel="stylesheet" href="css/style.css">
+    gtag('config', 'UA-140214231-1');
+  </script>
 
-  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="img/jg.jpg">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>J&G Concrete Breakers</title>
 </head>
 
-<body>
-  <div class="header" id="header">
-  <h1> J & G Concrete Breakers </h1>
-  <nav class=" navbar navbar-toggleable-md">
-  <i class=" fa fa-bars fa-3x navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-   </i>
-  <a class="navbar-brand" href="#"><h3 class="text-center"><span class="badge">J & G</span><span class="badge">Concrete Breakers</span></h3></a>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active text-center font-weight-bold " href="#header">Home </a>
-      <a class="nav-item text-center nav-link  font-weight-bold" href="#about">About</a>
-      <a class="nav-item nav-link active text-center font-weight-bold " href="#wwd">What We Do</a>
-      <a class="nav-item nav-link text-center font-weight-bold" href="#contact">Contact</a>
+<body class="bg-light">
+  <!-- As a heading -->
+  <nav class="navbar navbar-light bg-light">
+    <h1 class="navbar-brand mb-0">J&G Concrete Breakers</h1>
+    <a href="https://www.facebook.com/pages/category/Construction-Company/JG-Concrete-Breakers-543047649541580/"
+      class="fab fa-facebook-square fa-2x" id="facebook"></a>
+    <img width="60px" class="img-fluid logo" src="img/jg.jpg" alt="jg-">
+  </nav>
+  <div class="jumbotron text-center text-light bg-dark">
+    <h2 style="text-shadow: 0 2px 4px #000">We Break & Remove Concrete</h2>
+    <div class="d-flex justify-content-around mx-auto flex-wrap"
+      style="width: 90%; text-shadow: 0 2px 4px #000; max-width: 600px;">
+      <p class="lead" style="text-shadow: 0 2px 4px #000">Serving The Chicago Area</p>
+      <p class="lead" style="text-shadow: 0 2px 4px #000">(708)698-0379 / (708)526-4425</p>
     </div>
   </div>
-</nav>
+  <div class="container text-center">
+    <div class="row">
+      <div class="about col-8 mx-auto">
+        <h3>About Us</h3>
+        <p> Hello, We are a construction company with our main focus being on removing concrete.
+          As we expand we will provide many more services like complete concrete removal & replacement.
+          There is alot of services we will provide later on just ask.
+          We provide concrete removal for Chicago and sorrounding suburbs.
+          We also provide hauling service.
+          We give free estimates so feel free to drop us a message.
+        </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div>
+      <h3>Our Work</h3>
+      <div id="images_slideshow">
+        <span class="fas fa-arrow-left" id="prev">
+        </span>
+        <img class="img-thumbnail" id="current_image" src="" alt="job" />
+        <span class="fas fa-arrow-right" id="next">
+
+        </span>
+      </div>
+    </div>
+    <hr>
+    <div id="overlay">
+      <i class="fa fa-times fa-2x"></i>
+      <img id="overlay_image" src="" alt="selected_image" />
+    </div>
+
+    <div class="row">
+      <div class="col-8 mx-auto">
+        <h3>What We Do</h3>
+        <p class="lead"> We break and remove concrete from:</p>
+
+        <ul class="list-group">
+          <li class="list-group-item">Sidewalks</li>
+          <li class="list-group-item">Basements</li>
+          <li class="list-group-item">Stairs</li>
+          <li class="list-group-item">Driveways</li>
+          <li class="list-group-item">Garages</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+    <div class="row">
+      <div class="col-8 mx-auto">
+        <h3>Contact Us</h3>
+        <form action="http://formspree.io/jgconcretebreakers@gmail.com" method="post">
+          <div class="form-group">
+
+            <label for="name">Name:</label>
+            <input style="width:90%" class="form-control mx-auto" type="text" name="name" id="name" required>
+            <label for="contact">Email/Number:</label>
+            <input style="width:90%" class="form-control mx-auto" type="text" name="contact" id="contact">
+
+            <label for="message">Message</label>
+            <textarea style="width:90%; resize:none" class="form-control mx-auto" name="message" id="message" rows="6"
+              cols="40" required></textarea>
+
+            <input style="width:90%" type="submit" value="Send" class="btn btn-block mt-3 bg-dark text-light mx-auto" />
+        </form>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 
-<div class="jumbotron text-center">
-  <h2 class="display-3">Hello & Welcome! </h2>
-  <p class="lead display-5">We Are J & G Concrete Breakers</p>
-  <p class="font-weight-bold motto"> We Break & Remove! </p>
-  <hr class="my-4">
-  <p>To Learn more about us scroll lower or just click the Learn More button</p>
-  <p class="lead">
-    <a class="btn btn-lg" href="#about" role="button">Learn more</a>
-  </p>
-</div>
-<div class="container text-center">
-  <div class="about p-3 m-2 " id="about">
-    <h3> About </h3>
-    <p> Hello, We are a construction company with our main focus being on removing concrete. As we expand we will provide many more services like complete concrete removal & replacement. There is alot of services we will provide later on just ask. We provide concrete removal for Chicago and sorrounding suburbs. We give free estimates so feel free to drop us a message or a call.</p> 
-  </div>
-  <div class="wwd" id="wwd"> 
-    <h3> What We Do </h3>
-    <p> We break and remove concrete from: </p>
-    <ul>
-      <li> &#x25C8; SideWalks </li>
-      <li> &#x25C8; Basements </li>
-      <li> &#x25C8; Stairs </li>
-      <li>&#x25C8; Patios </li>
-      <li> &#x25C8; Driveways </li>
-      <li> &#x25C8; Garages </li>
-    </ul>
-  </div>
-  <div class="contact" id="contact">
-    <h3> Contact </h3>
-    <p> Feel Free to contact us: </p>
-    <form action="http://formspree.io/jgconcretebreakers@gmail.com" method="POST">
-      <label for="name"> Name: </label>
-      <input type="text" id="name">
-       <label for="email"> Email: </label>
-      <input type="email" id="email">
-      <label for="number"> Phone #: </label>
-        <input type="text" id="number">
-      <label for="message"> Message: </label>
-       <textarea name="message" placeholder="Your message" id="message"></textarea>
-      <input type="submit" value="Send">
-    </form>
-  </div>
+  <footer class="bg-dark text-light text-center">
+    <small>
+      <p style="padding-top: 3px;">2019&#174; J&G Concrete Breakers</p>
+    </small>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script>
+    const slideshow = document.getElementById('images_slideshow');
 
-</div>
-  <footer class="text-center">
-  <small> Copyright© 2017 J&G Concrete Breakers All rights reserved </small>
-    <br>
-    <small class="text-right">Website Desgined & Developed By <a href="http://joseluisdev.com">JLuis Avalos</a></small>
-</footer>
-  <script src='https://code.jquery.com/jquery-3.1.1.slim.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    const current = document.getElementById('current_image');
 
-    <script src="js/index.js"></script>
+    const next = document.getElementById('next');
 
+    const prev = document.getElementById('prev');
+
+    const overlay = document.getElementById('overlay');
+
+    const overlayImage = document.getElementById('overlay_image');
+
+    const images = ['/img/concrete1.jpg', '/img/concrete2.jpg', '/img/concrete3.jpg'];
+
+    var imageToShow = images[0];
+
+    function changeImage() {
+      current.setAttribute('src', imageToShow)
+      setOverlayImg(imageToShow);
+    }
+
+    changeImage();
+
+    next.onclick = function () {
+      const currentIndex = images.indexOf(imageToShow)
+
+      if (currentIndex + 1 >= images.length) {
+        imageToShow = images[0];
+
+      }
+      else {
+        imageToShow = images[currentIndex + 1]
+
+      }
+
+      changeImage()
+
+    }
+
+    prev.onclick = function () {
+      const currentIndex = images.indexOf(imageToShow)
+
+      if (currentIndex <= 0) {
+        imageToShow = images[images.length - 1]
+      }
+      else {
+        imageToShow = images[currentIndex - 1]
+      }
+
+      console.log(currentIndex)
+      changeImage();
+    }
+
+    current.onclick = function () {
+      overlay.style.display = 'flex';
+      setOverlayImg();
+
+
+    }
+
+    function setOverlayImg(image = imageToShow) {
+      overlayImage.setAttribute('src', image)
+    }
+
+    document.querySelector('#overlay .fa-times').onclick = function () {
+      overlay.style.display = 'none';
+
+    }
+
+  </script>
 </body>
+
 </html>
